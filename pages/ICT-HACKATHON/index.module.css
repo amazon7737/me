@@ -1,3 +1,19 @@
 .text {
   line-height: 110%;
 }
+
+@media screen and (max-width: 870px) {
+  .text {
+    width: auto;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text p {
+    width: 400px;
+    font-size: 11px;
+  }
+}

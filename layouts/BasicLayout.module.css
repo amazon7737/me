@@ -95,24 +95,3 @@
   .container {
   }
 }
-
-/* @media screen and (max-width: 870px) {
-  .wrap p {
-    font-size: 8px;
-    display: flex;
-    flex-direction: row;
-  }
-
-  .wrap .title {
-    font-size: 17px;
-  }
-
-  .wrap .tabs .link {
-    font-size: 12px;
-  }
-
-  .wrap .content Image {
-    width: 200px;
-    min-height: 200px;
-  }
-} */
