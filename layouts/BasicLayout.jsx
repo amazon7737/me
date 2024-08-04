@@ -7,8 +7,10 @@ export default function BasicLayout({ children }) {
     <main className={styles.wrap}>
       <div className={styles.container}>
         <div className={styles.about}>
-          <h2 id="title">안녕하세요 서버개발을 좋아하는 사람입니다.</h2>
-          <div id="content">
+          <h2 className={styles.title}>
+            안녕하세요 서버개발을 좋아하는 사람입니다.
+          </h2>
+          <div>
             <p>웹 애플리케이션 서비스를 만드는 것이 재미있습니다.</p>
             <p>
               사람들이 편하게 사용하는 서비스를 만들고 싶습니다. 편리한 기능을
@@ -29,19 +31,15 @@ export default function BasicLayout({ children }) {
           <Link href="/" className={styles.link}>
             home
           </Link>{" "}
-          |{" "}
-          <Link href="/project1" className={styles.link}>
+          <Link href="/1" className={styles.link}>
             project1
           </Link>{" "}
-          |{" "}
-          <Link href="/project2" className={styles.link}>
+          <Link href="/2" className={styles.link}>
             project2
           </Link>
-          |
-          <Link href="/project3" className={styles.link}>
-            project3
+          <Link href="/3" className={styles.link}>
+            2024 디지털 경진대회
           </Link>
-          |
           <Link href="/ICT-HACKATHON" className={styles.link}>
             2024 부산 ICT-해커톤
           </Link>{" "}

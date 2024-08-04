@@ -33,7 +33,13 @@ export default function ProjectPage() {
           제대로 보여줄 수 있겠구나라는 생각을 하였다.
         </p>
         <br></br>
-        <Image src="/images/ict-1.jpeg" width={500} height={680} alt="name" />
+        <Image
+          src="/images/ict-1.jpeg"
+          width={500}
+          height={680}
+          alt="name"
+          sizes="100vw"
+        />
         <Image src="/images/ict-2.jpeg" width={500} height={680} alt="name" />
         <p>해커톤은 오후 13시 부터 진행되었다.</p>
         <br></br>
