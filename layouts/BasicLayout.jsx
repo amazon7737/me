@@ -41,6 +41,10 @@ export default function BasicLayout({ children }) {
           <Link href="/project3" className={styles.link}>
             project3
           </Link>
+          |
+          <Link href="/ICT-HACKATHON" className={styles.link}>
+            2024 부산 ICT-해커톤
+          </Link>{" "}
         </nav>
         <div className={styles.content}>{children}</div>
       </div>
