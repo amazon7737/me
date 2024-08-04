@@ -32,10 +32,10 @@ export default function BasicLayout({ children }) {
             home
           </Link>{" "}
           <Link href="/1" className={styles.link}>
-            project1
+            수업리뷰사이트
           </Link>{" "}
           <Link href="/2" className={styles.link}>
-            project2
+            2024 관광데이터 활용 공모전
           </Link>
           <Link href="/3" className={styles.link}>
             2024 디지털 경진대회
