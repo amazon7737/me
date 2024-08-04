@@ -21,7 +21,7 @@
 }
 
 .about {
-  width: 95%;
+  width: 90%;
   min-height: 20svh;
   display: flex;
   align-items: center;
@@ -29,10 +29,18 @@
   border: 0.5px solid #ddd;
   border-radius: 8px;
   flex-direction: column;
+  font-family: "Eulyoo1945-regular";
 }
 
+/* #title {
+  font-family: "Eulyoo1945-semibold";
+}
+
+#content {
+} */
+
 .tabs {
-  width: 95%;
+  width: 90%;
   min-height: 5svh;
   display: flex;
   align-items: center;
@@ -42,7 +50,7 @@
 }
 
 .content {
-  width: 95%;
+  width: 90%;
   min-height: 75svh;
   display: flex;
   align-items: center;

@@ -110,3 +110,21 @@ a {
   padding: 0;
   margin: 0;
 }
+
+@font-face {
+  font-family: "PeoplefirstNeatLoudTTF";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2406-2@1.0/PeoplefirstNeatLoudTTF.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Eulyoo1945-regular";
+  src: url("./Eulyoo1945-Regular.woff");
+}
+
+@font-face {
+  font-family: "Eulyoo1945-semibold";
+  src: url("./Eulyoo1945-SemiBold.woff");
+}
