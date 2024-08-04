@@ -72,7 +72,8 @@ export default function ErrorPage() {
           부담이 되는 상황이기에 Caddy를 사용하였다.
         </p>
         <br />
-        <p>
+        <p>해당 방법으로 해결은 하였지만, 현업에서는 어떤 방식으로 해결할까?</p>
+        {/* <p>
           한편, 리액트에서는 기존 라우팅 방식이 github pages에 올바르게 적용되지
           않아 문제를 찾아보았는데 정적인 페이지로써의 변환 과정에서 오류가 많이
           발생하는 것을 발견했다.
@@ -81,7 +82,7 @@ export default function ErrorPage() {
         <p>
           axios 함수의 옵션을 찾아보던중 baseURL이 있었고 해당 URL에 API 주소를
           올바르게 입력하니 해결 되었다.
-        </p>
+        </p> */}
       </div>
     </BasicLayout>
   );
