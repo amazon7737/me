@@ -17,3 +17,35 @@
     font-size: 11px;
   }
 }
+
+@media screen and (max-width: 510px) {
+  .text {
+    width: auto;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text p {
+    width: 270px;
+    font-size: 7px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .text {
+    width: auto;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text p {
+    width: 220px;
+    font-size: 7px;
+  }
+}
