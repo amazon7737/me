@@ -17,7 +17,7 @@ export default function HomePage() {
 
       {/* 카카오 관광데이터 활용 공모전 */}
       <div className={styles.container}>
-        <h3>한국관광공사 x 카카오 2024 관광데이터 활용 공모전</h3>
+        <h3>(개발진행중)한국관광공사 x 카카오 2024 관광데이터 활용 공모전</h3>
         <a href="https://github.com/TabaraTeam/Tabara-Server">github</a>
       </div>
       <br />

@@ -40,6 +40,9 @@ export default function BasicLayout({ children }) {
           <Link href="/3" className={styles.link}>
             2024 디지털 경진대회
           </Link>
+          <Link href="4" className={styles.link}>
+            삽질 극복 사례
+          </Link>
           {/* <Link href="/ICT-HACKATHON" className={styles.link}>
             2024 부산 ICT-해커톤
           </Link>{" "} */}
